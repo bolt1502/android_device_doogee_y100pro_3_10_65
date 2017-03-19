@@ -1,8 +1,5 @@
-Device repository for Doogee Y100 Pro (CyanogenMod)
-===========================
-For Stock 3.10.65 kernel
-
-Это дерево создано на основе работы @divis1969 , без него ничего бы не было.
+Device repository for Doogee Y100 Pro (Lineage)
+==========================
 
 Getting Started
 ---------------
@@ -20,7 +17,7 @@ Build the code:
     cd device
     mkdir y100pro
     cd y100pro
-    git clone https://github.com/olegsvs/android_device_y100pro_persimmon_3_10_65 persimmon
+    git clone https://github.com/bolt1502/android_device_y100pro_persimmon_3_10_65.git persimmon
     cd persimmon/patches
     . apply-patches.sh
     cd vendor
