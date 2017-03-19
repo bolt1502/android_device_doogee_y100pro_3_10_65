@@ -23,7 +23,7 @@ Build the code:
     cd vendor
     mkdir y100pro
     cd y100pro
-    git clone https://github.com/olegsvs/android_vendor_y100pro_persimmon_3_10_65 persimmon
+    git clone https://github.com/bolt1502/android_vendor_y100pro_persimmon_3_10_65.git persimmon
     cd ../../
     source build/envsetup.sh
     breakfast persimmon
