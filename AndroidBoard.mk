@@ -5,4 +5,4 @@ include $(CLEAR_VARS)
 ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
 
 # include the non-open-source counterpart to this file
--include vendor/y100pro/persimmon/AndroidBoardVendor.mk
+-include vendor/doogee/y100pro/AndroidBoardVendor.mk

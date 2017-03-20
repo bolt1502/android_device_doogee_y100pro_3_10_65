@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export DEVICE=persimmon
-export VENDOR=y100pro
+export DEVICE=y100pro
+export VENDOR=doogee
 
 if [ $# -eq 0 ]; then
   SRC=adb

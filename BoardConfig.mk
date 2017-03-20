@@ -1,5 +1,5 @@
-DEVICE_PATH := device/y100pro/persimmon
-VENDOR_PATH := vendor/y100pro/persimmon
+DEVICE_PATH := device/doogee/y100pro
+VENDOR_PATH := vendor/doogee/y100pro
 
 USE_CAMERA_STUB := true
 
@@ -65,8 +65,8 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 -
 
 #in case we want to build kernel from source
 # uncomment the following lines
-#TARGET_KERNEL_SOURCE := kernel/y100pro/persimmon
-#TARGET_KERNEL_CONFIG := persimmon_debug_defconfig
+#TARGET_KERNEL_SOURCE := kernel/doogee/y100pro
+#TARGET_KERNEL_CONFIG := y100pro_debug_defconfig
 #TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-android-
 #BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 # end of commented lines

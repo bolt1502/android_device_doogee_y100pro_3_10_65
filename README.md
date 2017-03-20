@@ -18,7 +18,7 @@ Build the code:
     mkdir doogee
     cd doogee
     git clone https://github.com/bolt1502/android_device_doogee_y100pro_3_10_65.git y100pro
-    cd persimmon/patches
+    cd y100pro/patches
     . apply-patches.sh
     cd vendor
     mkdir doogee
@@ -26,7 +26,7 @@ Build the code:
     git clone https://github.com/bolt1502/android_vendor_doogee_y100pro_3_10_65.git y100pro
     cd ../../
     source build/envsetup.sh
-    breakfast persimmon
+    breakfast y100pro
     make -j 4 bacon
 
 Current state

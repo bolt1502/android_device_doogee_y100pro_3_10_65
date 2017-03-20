@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DEVICE=persimmon
-VENDOR=y100pro
+DEVICE=y100pro
+VENDOR=doogee
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
