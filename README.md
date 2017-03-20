@@ -15,15 +15,15 @@ Sync sources:
 Build the code:
     
     cd device
-    mkdir y100pro
-    cd y100pro
-    git clone https://github.com/bolt1502/android_device_y100pro_persimmon_3_10_65.git persimmon
+    mkdir doogee
+    cd doogee
+    git clone https://github.com/bolt1502/android_device_doogee_y100pro_3_10_65.git y100pro
     cd persimmon/patches
     . apply-patches.sh
     cd vendor
-    mkdir y100pro
-    cd y100pro
-    git clone https://github.com/bolt1502/android_vendor_y100pro_persimmon_3_10_65.git persimmon
+    mkdir doogee
+    cd doogee
+    git clone https://github.com/bolt1502/android_vendor_doogee_y100pro_3_10_65.git y100pro
     cd ../../
     source build/envsetup.sh
     breakfast persimmon
