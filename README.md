@@ -6,7 +6,7 @@ Getting Started
 
 Initialize a repository with CyanogenMode:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-14.1
+    repo init -u git://github.com/LineageOS/android.git -b cm-14.1
     
 Sync sources:    
 
