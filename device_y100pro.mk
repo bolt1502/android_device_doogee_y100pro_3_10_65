@@ -15,7 +15,7 @@ PRODUCT_AAPT_CONFIG := normal xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-    LOCAL_KERNEL := device/doogee/y100pro/prebuilt/Image.gz-dtb
+    LOCAL_KERNEL := device/doogee/y100pro/prebuilt/kernel
 else
     LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
